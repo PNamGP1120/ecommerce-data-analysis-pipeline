@@ -29,7 +29,7 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Generated figures
-reports/figures/*.png
+#reports/figures/*.png
 
 
 
