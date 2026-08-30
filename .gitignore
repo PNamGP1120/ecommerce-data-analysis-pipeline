@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Local database
+database/*.db
+
+# Generated data
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep directories
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Generated figures
+reports/figures/*.png
+
+
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+data/raw/*.csv
+data/interim/*.csv
+data/processed/*.csv
+
+.DS_Store
